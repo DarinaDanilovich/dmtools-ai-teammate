@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       config_file:
-        description: 'Path to config'
+        description: './agents/config_file.json'
         required: true
       encoded_config:
         description: 'Encoded or JSON Agent Config'
